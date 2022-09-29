@@ -1,0 +1,74 @@
+/*homepage*/
+.homepage-section {
+  background-color: #F5F7F2 !important;
+}
+
+.svg-home {
+  position: relative;
+  top: -11px;
+  height: 19px;
+}
+
+.home {
+  background-color: #F5F7F2 !important;
+}
+.home-logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  --bs-bg-opacity: 1;
+  --bs-text-opacity: 1;
+  margin-bottom: 0 !important;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px rgb(29 58 83 / 15%) !important;
+}
+
+.fa {
+  display: inline-block !important;
+  color: #008fc7;
+  text-align: center;
+  line-height: 2;
+  width: 1.25em;
+}
+
+.home-text {
+  margin-top: 15px;
+}
+
+.home-heading {
+  font-family: nexa-bold;
+  font-weight: 900;
+  font-size: 46px;
+  align-items: flex-start;
+  text-align: start;
+  color: #29478D;
+}
+
+.heading-home-spam {
+  display: inline-block;
+  background-color: #F7E7DA;
+  border-style: dotted;
+  text-align: justify;
+  border-color: #fa6c25;
+  padding: 5px;
+}
+
+.rhombus {
+  position: relative;
+  left: 79%;
+  display: none;
+}
+
+.rhombus-4 {
+  position: relative;
+  bottom: -35px;
+  right: 50px;
+}
+
+.rhombus-3 {
+  position: relative;
+  left: -12px;
+  top: 16px;
+}

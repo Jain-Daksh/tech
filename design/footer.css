@@ -1,0 +1,57 @@
+.footer {
+  background-color: #F5F7F2;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+ul {
+  list-style-type: none;
+}
+
+
+.fa {
+  padding: 5px;
+  border-radius: 50%;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  
+}
+/*
+.submit-button{
+  float: right;
+    position: relative;
+    border: none;
+    bottom: 21%;
+}
+*/
+.submit-button {
+  /* background-color: #29478D;
+  */
+  background-color: #008fc7;
+  border-color: #008fc7;
+  color: white;
+  font-family: nexa-regular;
+  font-weight: 300;
+
+  
+}
+
+.button:hover {
+  background-color: #49c5db;
+  border-color: #00dfef;
+}
+.submit-button-1{
+  float: right;
+  border: none;
+}
+
+
+
+
+.company-logo-footer{
+  height: 40px;
+  width: 40px;
+}
+

@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #F5F7F2 !important;
+}
+.nav-link {
+  font-size: 16px;
+  font-weight: 500 !important;
+}
+.company-logo {
+  height: 70px !important;
+  width: 70px !important;
+}

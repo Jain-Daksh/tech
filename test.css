@@ -1,0 +1,455 @@
+@font-face {
+  font-family: nexa-bold;
+  src: url(./font/Nexa\ Bold.otf);
+}
+
+@font-face {
+  font-family: nexa-regular;
+  src: url(./font/NexaRegular.otf);
+}
+
+@font-face {
+  font-family: nexa;
+  src: url(./font/Nexa-Light.otf);
+}
+
+/*common*/
+
+body {
+  font-family: nexa-regular !important;
+  font-weight: 600 !important;
+}
+
+.button {
+  /* background-color: #29478D;
+  */
+  background-color: #008fc7;
+  border-color: #008fc7;
+  color: white;
+  font-style: normal;
+  font-variant: normal;
+  font-family: nexa-regular;
+  font-weight: 300;
+  border-radius: 17px / 20px;
+  padding: 7px 23px;
+}
+
+.button:hover {
+  background-color: #49c5db;
+  border-color: #00dfef;
+}
+
+.section1 {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.paragraph {
+  font-family: nexa;
+  font-size: 16px;
+  font-weight: 400;
+  color: #343a40 !important;
+}
+.sub-heading {
+  font-family: nexa;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #29478D;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+.heading {
+  font-family: nexa-bold;
+  font-weight: 800;
+  font-size: 43px;
+  align-items: flex-start;
+  color: #29478D;
+  text-align: start;
+}
+/*svg*/
+
+.triangle {
+  height: 27px;
+  transform: rotate(45deg);
+}
+
+.curve-line {
+  position: relative;
+  left: 61%;
+  bottom: 10%;
+  height: 43px;
+}
+
+.arrow-down {
+  position: relative;
+  top: -30px;
+  right: -79%;
+  color: #FDB78C;
+}
+
+.plus {
+  position: relative;
+  height: 30px;
+}
+
+.line1 {
+  position: relative;
+  left: 30%;
+  height: 100px;
+}
+
+.spiral {
+  height: 41px;
+  position: relative;
+
+}
+
+.arrow-image {
+  height: 46px;
+}
+
+.arroba-product {
+  position: relative;
+  top: 162%;
+}
+
+.plus-product {
+  position: relative;
+  left: 83%;
+  top: 184%;
+}
+
+.triangle-product {
+  position: relative;
+  left: 29%;
+  height: 27px;
+}
+
+.triangle-products {
+  position: relative;
+  left: 80%;
+  height: 27px;
+  transform: rotate(45deg);
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+}
+
+.spiral-footer {
+  position: relative;
+  left: 50%;
+  height: 30px;
+}
+
+.plus-footer {
+  position: relative;
+  left: 74%;
+}
+
+
+
+
+/*navbar*/
+.navbar {
+  background-color: #F5F7F2 !important;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500 !important;
+}
+
+.company-logo {
+  height: 70px;
+  width: 70px;
+}
+
+/*homepage*/
+.homepage-section {
+  background-color: #F5F7F2 !important;
+}
+
+.svg-home {
+  position: relative;
+  top: -11px;
+  height: 19px;
+}
+
+.home {
+  background-color: #F5F7F2 !important;
+}
+.home-logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  --bs-bg-opacity: 1;
+  --bs-text-opacity: 1;
+  margin-bottom: 0 !important;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px rgb(29 58 83 / 15%) !important;
+}
+
+.fa {
+  display: inline-block !important;
+  color: #008fc7;
+  text-align: center;
+  line-height: 2;
+  width: 1.25em;
+}
+
+.home-text {
+  margin-top: 15px;
+}
+
+.home-heading {
+  font-family: nexa-bold;
+  font-weight: 900;
+  font-size: 46px;
+  align-items: flex-start;
+  text-align: start;
+  color: #29478D;
+}
+
+.heading-home-spam {
+  display: inline-block;
+  background-color: #F7E7DA;
+  border-style: dotted;
+  text-align: justify;
+  border-color: #fa6c25;
+  padding: 5px;
+}
+
+.rhombus {
+  position: relative;
+  left: 79%;
+  display: none;
+}
+
+.rhombus-4 {
+  position: relative;
+  bottom: -35px;
+  right: 50px;
+}
+
+.rhombus-3 {
+  position: relative;
+  left: -12px;
+  top: 16px;
+}
+
+/*service*/
+.card-service {
+  margin-bottom: 1rem;
+}
+
+.image-service {
+  margin: 8%;
+  --bs-bg-opacity: 1;
+  --bs-text-opacity: 1;
+  box-shadow: 0px 0px 40px rgb(29 58 83 / 15%) !important;
+  padding: 5px;
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+
+}
+
+.service-logo {
+  padding: 30px;
+  --bs-bg-opacity: 1;
+  --bs-text-opacity: 1;
+  box-shadow: 0px 0px 40px rgb(29 58 83 / 15%) !important;
+}
+
+.card:hover a {
+  color: #008fc7;
+}
+.card-service{
+  /*border: 1px solid #00000012;*/
+  border: 1px solid #0000001a;
+  border-radius: 5%;
+}
+.card-footer {
+  background-color: white !important;
+}
+
+.service-footer {
+  text-decoration: none;
+  color: gray;
+}
+/*products*/
+.product-logo {
+
+  height: 90px;
+  width: 90px;
+  box-shadow: 0px 0px 40px hsla(225, 60%, 11%, 0.15) !important;
+  --bs-bg-opacity: 1;
+  --bs-text-opacity: 1;
+}
+
+.products {
+  background-color: #1B5060;
+}
+
+.products-heading {
+  color: white;
+  font-family: 'sofiapro-light';
+  font-weight: bold;
+
+
+}
+.product-logo-image{
+  align-self: center;
+
+}
+.product-card {
+  BACKGROUND-COLOR: #225566;
+  border: 1px solid #225566;
+}
+
+.sub-heading-products {
+  color: white !important;
+  text-align: left;
+  font-family: nexe;
+}
+
+
+
+
+/*logo*/
+.customer-logo {
+  box-shadow: 0px 0px 40px hsla(225, 60%, 11%, 0.30) !important;
+  height: 75px;
+  width: 75px;
+  grid-gap: 10px;
+  margin: 8%;
+}
+
+.logo-customer {
+  padding: 5%;
+}
+
+.logo-customer {
+  grid-row-gap: 30px !important;
+  grid-column-gap: 30px !important;
+}
+
+.logodown {
+  position: relative;
+  margin-top: 10%;
+}
+
+.logo {
+  background-color: #F5F7F2 !important;
+
+}
+/*testimonial*/
+
+.tm-people {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+/*footer*/
+
+.footer {
+  background-color: #F5F7F2;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+ul {
+  list-style-type: none;
+}
+
+
+.fa {
+  padding: 5px;
+  border-radius: 50%;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  
+}
+/*
+.submit-button{
+  float: right;
+    position: relative;
+    border: none;
+    bottom: 21%;
+}
+*/
+.submit-button {
+  /* background-color: #29478D;
+  */
+  background-color: #008fc7;
+  border-color: #008fc7;
+  color: white;
+  font-family: nexa-regular;
+  font-weight: 300;
+
+  
+}
+
+.button:hover {
+  background-color: #49c5db;
+  border-color: #00dfef;
+}
+.submit-button-1{
+  float: right;
+  border: none;
+}
+
+
+
+
+.company-logo-footer{
+  height: 40px;
+  width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-device-width: 576px) {
+
+  .svg {
+    display: none;
+  }
+  .sub-heading-products{
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-device-width: 625px) {
+  .product-svg {
+    display: none;
+  }
+}
+

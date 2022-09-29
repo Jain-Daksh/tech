@@ -1,0 +1,71 @@
+@font-face {
+  font-family: nexa-bold;
+  src: url(../font/Nexa\ Bold.otf);
+}
+
+@font-face {
+  font-family: nexa-regular;
+  src: url(../font/NexaRegular.otf);
+}
+@font-face {
+  font-family: nexa;
+  src: url(../font/Nexa-Light.otf);
+}
+/*common*/
+
+body {
+  font-family: nexa-regular !important;
+  font-weight: 600 !important;
+}
+
+.button {
+  /* background-color: #29478D;
+  */
+  background-color: #008fc7;
+  border-color: #008fc7;
+  color: white;
+  font-style: normal;
+  font-variant: normal;
+  font-family: nexa-regular;
+  font-weight: 300;
+  border-radius: 17px / 20px;
+  padding: 7px 23px;
+}
+
+.button:hover {
+  background-color: #49c5db !important;
+  border-color: #00dfef !important;
+}
+
+.section1 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.paragraph {
+  font-family: nexa;
+  font-size: 16px;
+  font-weight: 400;
+  color: #343a40 !important;
+}
+.sub-heading {
+  font-family: nexa;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #29478D;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+.heading {
+  font-family: nexa-bold;
+  font-weight: 800;
+  font-size: 43px;
+  align-items: flex-start;
+  color: #29478D;
+  text-align: start;
+}

@@ -1,0 +1,34 @@
+.product-logo {
+
+  height: 90px;
+  width: 90px;
+  box-shadow: 0px 0px 40px hsla(225, 60%, 11%, 0.15) !important;
+  --bs-bg-opacity: 1;
+  --bs-text-opacity: 1;
+}
+
+.products {
+  background-color: #1B5060;
+}
+
+.products-heading {
+  color: white;
+  font-family: 'sofiapro-light';
+  font-weight: bold;
+
+
+}
+.product-logo-image{
+  align-self: center;
+
+}
+.product-card {
+  BACKGROUND-COLOR: #225566;
+  border: 1px solid #225566;
+}
+
+.sub-heading-products {
+  color: white !important;
+  text-align: left;
+  font-family: nexe;
+}

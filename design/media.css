@@ -1,0 +1,17 @@
+
+@media screen and (max-device-width: 576px) {
+
+  .svg {
+    display: none;
+  }
+  .sub-heading-products{
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-device-width: 625px) {
+  .product-svg {
+    display: none;
+  }
+}

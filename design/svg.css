@@ -1,0 +1,79 @@
+
+.triangle {
+  /*height: 27px;*/
+  transform: rotate(45deg);
+}
+
+.curve-line {
+  position: relative;
+  left: 61%;
+  bottom: 10%;
+  height: 43px;
+}
+
+.arrow-down {
+  position: relative;
+  top: -30px;
+  right: -79%;
+  color: #FDB78C;
+}
+
+.plus {
+  position: relative;
+  height: 30px;
+}
+
+.line1 {
+  position: relative;
+  left: 30%;
+  height: 100px;
+}
+
+.spiral {
+  height: 41px;
+  position: relative;
+
+}
+
+.arrow-image {
+  height: 46px;
+}
+
+.arroba-product {
+  position: relative;
+  top: 162%;
+}
+
+.plus-product {
+  position: relative;
+  left: 83%;
+  top: 184%;
+}
+
+.triangle-product {
+  position: relative;
+  left: 29%;
+  /*height: 27px;*/
+}
+
+.triangle-products {
+  position: relative;
+  left: 80%;
+  /*height: 27px;*/
+  transform: rotate(45deg);
+}
+
+.arrow-up {
+  transform: rotate(180deg);
+}
+
+.spiral-footer {
+  position: relative;
+  left: 50%;
+ /* height: 30px;*/
+}
+
+.plus-footer {
+  position: relative;
+  left: 74%;
+}

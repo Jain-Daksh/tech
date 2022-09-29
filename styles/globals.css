@@ -1,0 +1,41 @@
+@font-face {
+  font-family: nexa-bold;
+  src: url(../font/Nexa\ Bold.otf);
+}
+
+@font-face {
+  font-family: nexa-regular;
+  src: url(../font/NexaRegular.otf);
+}
+@font-face {
+  font-family: nexa;
+  src: url(../font/Nexa-Light.otf);
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
