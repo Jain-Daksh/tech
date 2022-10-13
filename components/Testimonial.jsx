@@ -10,7 +10,7 @@ function Testimonial() {
     <div className='section1'>
     <div className="container">
     <div className="row">
-        <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12 col-sm-12">
+        <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12 col-sm-12 d-flex justify-content-center">
             <div className="card card-testimonial d-flex justify-content-center">
                 <div className="face front-face">
                 <Image src={Image1} className="profile" />
@@ -30,7 +30,7 @@ function Testimonial() {
                 </div>
             </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12 col-sm-12">
+        <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12 col-sm-12 d-flex justify-content-center">
             <div className="card card-testimonial">
                 <div className="face front-face">
                           <Image src={Image2} className="profile" />
@@ -49,7 +49,7 @@ function Testimonial() {
                 </div>
             </div>
         </div>
-        <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12 col-sm-12">
+        <div className="col-xl-4 col-lg-4 col-md-6 col-xs-12 col-sm-12 d-flex justify-content-center">
             <div className="card card-testimonial">
                 <div className="face front-face">
                     <Image src={Image3} className="profile" />
